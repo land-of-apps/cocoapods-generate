@@ -1,5 +1,5 @@
-sudo: false
-language: ruby
-rvm:
-  - 2.5.3
-  - 2.6.1
+# Turn on validation, so we can use import:
+version: ~> 1.0
+
+script:
+- bundle exec rspec spec
