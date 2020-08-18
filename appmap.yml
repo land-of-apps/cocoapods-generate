@@ -1,0 +1,5 @@
+name: cocoapods-generate
+
+packages:
+- path: lib
+- path: spec
