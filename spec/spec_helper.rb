@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+# APPMAP
+require 'appmap/rspec'
+
 require 'bundler/setup'
 
 require 'cocoapods'
